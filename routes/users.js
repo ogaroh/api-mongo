@@ -118,7 +118,7 @@ var deleteUser = (req, res) => {
 // 3) ROUTES
 
 router.param('id', (req, res, next, val) => {
-  console.log(`Tour ID is:  ${val}`);
+  console.log(`User ID is:  ${val}`);
   next();
 })
 
